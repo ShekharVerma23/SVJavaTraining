@@ -1,4 +1,4 @@
-package com.company;
+package com.JavaTest;
 
 public class DemoString {
 
