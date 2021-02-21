@@ -73,6 +73,26 @@ public class StringOps {
                 System.out.println("Are string 1 and string 2 equal when compared without case sensitivity? " + str1.equalsIgnoreCase(str2));
                 break;
             }
+            case 8:{
+                System.out.println("Enter substring");
+                String substr = scan.next();
+                System.out.println("Enter index after which substring needs to be searched");
+                int index = scan.nextInt();
+                int substrlen = substr.length();
+                if(index<substrlen)
+                    System.out.println("Index of substring after index " + index + " in String 1 is " + str1.indexOf(substr,index));
+                System.out.println("Index of substring in String 2 is " + str2.indexOf(substr));
+            }
+            case 9: {
+                System.out.println("Enter substring");
+                String substr = scan.next();
+                System.out.println("Enter index after which substring needs to be searched");
+                int index = scan.nextInt();
+                int substrlen = substr.length();
+                if (index < substrlen)
+                    System.out.println("Last Index of substring after index " + index + " in String 1 is " + str1.lastIndexOf(substr, index));
+                System.out.println("Last Index of substring in String 2 is " + str2.lastIndexOf(substr));
+            }
             case 10:{
                 strLen1 = str1.length();
                 strLen2 = str2.length();
