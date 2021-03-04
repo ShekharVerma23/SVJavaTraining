@@ -1,8 +1,8 @@
-package com.math.calculator;
+package com.calculator;
 
 import java.util.Scanner;
 
-public class Calculator {
+public class Calculator{
 
     public double calc(double x, double y, String op){
         double res = 0;
